@@ -20,6 +20,7 @@
 .header-sec .user-img{
     width: 40px;
     height: 40px;
+    justify-content: center;
 }
 .header-sec .user-img img{
     width: 100%;
@@ -31,11 +32,11 @@
     margin-left: 10px;
 }
 .header-sec .user-name{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 .header-sec .user-greeting{
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic;
 
 }
