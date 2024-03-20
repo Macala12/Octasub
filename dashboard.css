@@ -8,13 +8,14 @@
     margin: 0px;
     padding: 0px;
 }
-.body section{
-    margin-top: 10px;
-    font-family: 'raleway';
+.content{
 }
 .header-sec{
     display: flex;
     justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 20px;
+    font-family: 'raleway';
 }
 .header-sec .user_info{
     display: inline-flex;
@@ -40,6 +41,18 @@
 }
 .header-sec .user-greeting{
     font-size: 14px;
-    font-style: italic;
+}
 
+.bottom_bar-sec{
+    position: absolute;
+    bottom: -2%;
+    padding: 15px 0px;
+    width: 100%;
+}
+.bottom_bar .col-12{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_bar .col-12 a{
+    color: #fff;
 }
