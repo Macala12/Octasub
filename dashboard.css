@@ -52,11 +52,22 @@
     background-color: #26feb7;
     color: #010f24;
     height: 100px;
+    position: relative;
     padding-top: 15px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.wallet span{
+.wallet .wallet_icon{
+    background-color: #010f24;
+    border: 2px solid #26feb7;
+    color: #26feb7;
+    padding: 10px 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+.wallet .wallet_amount{
     font-size: 30px;
     font-weight: 700;
     font-family: 'rubik';
