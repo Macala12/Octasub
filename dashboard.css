@@ -20,6 +20,7 @@
 .header-sec .user-img{
     width: 40px;
     height: 40px;
+    margin: 05px 0px 0px;
     justify-content: center;
 }
 .header-sec .user-img img{
