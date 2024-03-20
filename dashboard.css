@@ -54,8 +54,10 @@
     height: 100px;
     position: relative;
     padding-top: 15px;
+    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .wallet .wallet_icon{
     background-color: #010f24;
