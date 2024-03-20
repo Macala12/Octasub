@@ -5,6 +5,8 @@
 .body{
     background-color: #031635;
     color: #fff;
+    margin: 0px;
+    padding: 0px;
 }
 .body section{
     margin-top: 10px;
