@@ -10,6 +10,7 @@
 }
 .content{
 }
+/* Header */
 .header-sec{
     display: flex;
     justify-content: space-between;
@@ -46,7 +47,26 @@
 .header-sec .h_icons .fi{
     font-size: 19px;
 }
+/* Wallet */
+.wallet{
+    background-color: #26feb7;
+    color: #010f24;
+    height: 100px;
+    padding-top: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.wallet span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'rubik';
+}
+.wallet div{
+    font-family: 'raleway';
+    font-weight: 700;
+}
 
+/* Bottom Bar */
 .bottom_bar-sec{
     position: absolute;
     bottom: -2%;
