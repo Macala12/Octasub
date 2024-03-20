@@ -3,7 +3,7 @@
 }
 
 .body{
-    background-color: #031635;
+    background-color: #010f24;
     color: #fff;
     margin: 0px;
     padding: 0px;
@@ -41,6 +41,10 @@
 }
 .header-sec .user-greeting{
     font-size: 14px;
+    color: #26feb7;
+}
+.header-sec .h_icons .fi{
+    font-size: 19px;
 }
 
 .bottom_bar-sec{
