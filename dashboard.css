@@ -92,9 +92,10 @@
 /* Bottom Bar */
 .bottom_bar-sec{
     position: fixed;
-    bottom: -2%;
+    bottom: -3%;
     padding: 15px 0px;
     width: 100%;
+    background-color: #010f24;
 }
 .bottom_bar .col-12{
     display: flex;
@@ -152,9 +153,9 @@
 
 /* ChatBox */
 .chat_box-sec .chat-box{
-
+    padding-bottom: 150px;
 }
-.chat-box .chat{
+.chat-box .chat_fill{
     width: fit-content;
     padding: 5px 15px;
     font-size: 14px;
@@ -163,16 +164,16 @@
     border-radius: 20px;
     position: relative;
 }
-.chat-box .chat h5{
+.chat-box .chat_fill h5{
     font-size: 14px;
     font-weight: 800;
     margin-left: 16px;
 }
-.chat-box .chat p{
+.chat-box .chat_fill p{
     font-weight: 600;
     font-family: 'raleway';
 }
-.chat-box .chat span{
+.chat-box .chat_fill span{
     background-color: #010f24;
     border: 2px solid #26feb7;
     color: #26feb7;
@@ -181,4 +182,32 @@
     position: absolute;
     top: -15px;
     left: -10px;
+}
+.chat-box .chat_outline{
+    width: fit-content;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #26feb7;
+    background-color: #010f24;
+    border: 2px solid #26feb7;
+    border-radius: 20px;
+    position: relative;
+}
+.chat-box .chat_outline span{
+    background-color: #26feb7;
+    color: #010f24;
+    padding: 10px 13px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+}
+.chat-box .chat_outline h5{
+    color: #26feb7;
+    font-size: 14px;
+    font-weight: 800;
+}
+.chat-box .chat_outline p{
+    font-weight: 600;
+    font-family: 'raleway';
 }
