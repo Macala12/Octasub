@@ -188,11 +188,7 @@
 
 /* ChatBox */
 .chat_box-sec{
-    background-color: #031635;
-    padding: 10px 0px 30px;
-    margin: 10px;
-    border-radius: 20px;
-    min-height: 460px;
+    min-height: 450px;
 }
 .chat_box-sec .chat-box{
     padding-bottom: 150px;
