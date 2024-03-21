@@ -71,7 +71,7 @@
 }
 .wallet .wallet_icon{
     background-color: #010f24;
-    border: 2px solid #26feb7;
+    border: 2px solid #e9fff8;
     color: #26feb7;
     padding: 10px 13px;
     border-radius: 50%;
@@ -192,7 +192,6 @@
 }
 .chat-box .chat_fill span{
     background-color: #e9fff8;
-    border: 2px solid #010f24;
     color: #010f24;
     padding: 10px 13px;
     border-radius: 50%;
@@ -213,8 +212,7 @@
     float: right;
 }
 .chat-box .chat_outline span{
-    background-color: #e9fff8;
-    border: 2px solid #010f24;
+    background-color: #26feb7;
     color: #010f24;
     padding: 10px 13px;
     border-radius: 50%;
