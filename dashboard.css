@@ -47,7 +47,16 @@
 .header-sec .h_icons .fi{
     font-size: 19px;
 }
+
 /* Wallet */
+.wallet-sec button{
+    width: 100%;
+    border: 2px solid #26feb7;
+    color: #26feb7;
+    font-family: 'raleway';
+    font-weight: 700;
+    border-radius: 10px;
+}
 .wallet{
     background-color: #26feb7;
     color: #010f24;
@@ -94,4 +103,27 @@
     color: #fff;
     font-family: 'raleway';
     font-size: 14px;
+}
+
+/* Quick Link */
+.quick_link-sec h6{
+    color: #fff;
+    font-family: 'rubik';
+    margin: 0px 25px;
+}
+.quick-link{
+    display: flex;
+    justify-content: space-between;
+}
+.quick-link span{
+    border: 2px solid #26feb7;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 25px 10px;
+    font-family: 'raleway';
+    font-size: 15px;
+    font-weight: 700;
+}
+.quick-link div i{
+    color: #26feb7;
 }
