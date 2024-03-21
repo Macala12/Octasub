@@ -53,13 +53,13 @@
 .wallet-sec button{
     width: 100%;
     border: 2px solid #26feb7;
-    color: #26feb7;
+    color: #e9fff8;
     font-family: 'raleway';
     font-weight: 700;
     border-radius: 10px;
 }
 .wallet{
-    background-color: #26feb7;
+    background-color: #e9fff8;
     color: #010f24;
     height: 100px;
     position: relative;
@@ -174,7 +174,7 @@
     padding: 5px 15px;
     font-size: 14px;
     color: #010f24;
-    background-color: #26feb6c4;
+    background-color: #e9fff8;
     border-radius: 20px;
     position: relative;
     margin-bottom: 20px;
@@ -191,9 +191,9 @@
     font-family: 'raleway';
 }
 .chat-box .chat_fill span{
-    background-color: #010f24;
-    border: 2px solid #26feb6c4;
-    color: #26feb7;
+    background-color: #e9fff8;
+    border: 2px solid #010f24;
+    color: #010f24;
     padding: 10px 13px;
     border-radius: 50%;
     position: absolute;
@@ -204,8 +204,8 @@
     width: fit-content;
     padding: 5px 15px;
     font-size: 14px;
-    color: #26feb7;
-    background-color: #010f24;
+    color: #010f24;
+    background-color: #26feb7;
     border: 2px solid #26feb6c4;
     border-radius: 20px;
     position: relative;
@@ -213,7 +213,8 @@
     float: right;
 }
 .chat-box .chat_outline span{
-    background-color: #26feb7;
+    background-color: #e9fff8;
+    border: 2px solid #010f24;
     color: #010f24;
     padding: 10px 13px;
     border-radius: 50%;
@@ -222,7 +223,7 @@
     right: -10px;
 }
 .chat-box .chat_outline h5{
-    color: #26feb7;
+    color: #010f24;
     font-size: 14px;
     font-weight: 800;
 }
