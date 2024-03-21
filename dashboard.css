@@ -90,10 +90,11 @@
 
 /* Bottom Bar */
 .bottom_bar-sec{
-    position: absolute;
+    position: fixed;
     bottom: -2%;
     padding: 15px 0px;
     width: 100%;
+    margin-top: 50px;
 }
 .bottom_bar .col-12{
     display: flex;
