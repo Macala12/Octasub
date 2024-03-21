@@ -88,6 +88,11 @@
     font-family: 'raleway';
     font-weight: 700;
 }
+.wallet-box p{
+    font-family: 'raleway';
+    margin-top: 10px;
+    font-size: 13px;
+}
 
 /* Bottom Bar */
 .bottom_bar-sec{
@@ -152,6 +157,9 @@
 }
 
 /* ChatBox */
+.chat_box-sec{
+    min-height: 450px;
+}
 .chat_box-sec .chat-box{
     padding-bottom: 150px;
 }
@@ -221,4 +229,22 @@
 .chat-box .chat_outline p{
     font-weight: 600;
     font-family: 'raleway';
+}
+
+/* Transaction */
+.transaction-sec div{
+    text-align: center;
+}
+.transaction-sec h4{
+    color: #fff;
+    font-family: 'rubik';
+    font-size: 20px;
+}
+.transaction-sec button{
+    background-color: #26feb7;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 700;
+    margin-top: 10px;
+    border-radius: 20px;
 }
