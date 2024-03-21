@@ -114,6 +114,7 @@
 .quick_link-sec h6{
     color: #fff;
     font-family: 'rubik';
+    font-size: 14px;
     margin: 0px 10px;
 }
 .quick-link{
@@ -129,7 +130,6 @@
     flex-direction: column;
 }
 .quick-link span i{
-    border: 2px solid #26feb7;
     color: #26feb7;
     width: 50px;
     height: 50px;
@@ -155,14 +155,22 @@
 .chat_box-sec .chat-box{
     padding-bottom: 150px;
 }
+.chat_box-sec h6{
+    color: #fff;
+    font-family: 'rubik';
+    font-size: 14px;
+    margin-bottom: 30px;
+}
 .chat-box .chat_fill{
     width: fit-content;
     padding: 5px 15px;
     font-size: 14px;
     color: #010f24;
-    background-color: #26feb7;
+    background-color: #26feb6c4;
     border-radius: 20px;
     position: relative;
+    margin-bottom: 20px;
+    float: left;
 }
 .chat-box .chat_fill h5{
     font-size: 14px;
@@ -176,7 +184,7 @@
 }
 .chat-box .chat_fill span{
     background-color: #010f24;
-    border: 2px solid #26feb7;
+    border: 2px solid #26feb6c4;
     color: #26feb7;
     padding: 10px 13px;
     border-radius: 50%;
@@ -190,9 +198,11 @@
     font-size: 14px;
     color: #26feb7;
     background-color: #010f24;
-    border: 2px solid #26feb7;
+    border: 2px solid #26feb6c4;
     border-radius: 20px;
     position: relative;
+    margin-bottom: 20px;
+    float: right;
 }
 .chat-box .chat_outline span{
     background-color: #26feb7;
