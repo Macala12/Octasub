@@ -52,7 +52,8 @@
 /* Wallet */
 .wallet-sec button{
     width: 100%;
-    border: 2px solid #26feb7;
+    border: 2px solid #e9fff8;
+    background-color: #031635;
     color: #e9fff8;
     font-family: 'raleway';
     font-weight: 700;
@@ -116,6 +117,12 @@
 
 
 /* Quick Link */
+.quick_link-sec{
+    background-color: #031635;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 20px;
+}
 .quick_link-sec h6{
     color: #fff;
     font-family: 'rubik';
@@ -168,6 +175,7 @@
     font-family: 'rubik';
     font-size: 14px;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 .chat-box .chat_fill{
     width: fit-content;
