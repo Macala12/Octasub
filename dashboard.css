@@ -160,6 +160,12 @@
 }
 
 /* Image Overflow */
+.image_overflow-sec h6{
+    color: #fff;
+    font-family: 'rubik';
+    font-size: 14px;
+    margin: 0px 10px 20px;
+}
 .image_overflow-sec .image-container{
     width: 100%;
     overflow: auto;
@@ -173,14 +179,13 @@
 .image-container .img-box{
     width: 100%;
     height: 200px;
-    margin: 0px 10px;
+    margin: 0px 0px;
 }
 .image-container .img-box img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-    border: 2px solid #26feb7;
 }
 
 /* ChatBox */
