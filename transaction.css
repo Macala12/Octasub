@@ -59,23 +59,26 @@
 }
 .transaction_history-sec .header_filter span i{
     font-size: 20px;
-    padding: 08px 10px;
+    padding: 08px 10px 08px;
     margin: 0px 5px;
-    color: #031635;
-    background-color: #e9fff8;
+    color: #e9fff8;
     border-radius: 50%;
 }
 .t_h_box{
     padding: 10px 10px 15px;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 .t_h_box .t_img_name_date{
     display: inline-flex;
 }
+.t_h_box .t_img_name_date .t_name{
+    font-weight: 700;
+}
 .t_h_box .t_img_name_date .t_img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .t_h_box .t_img_name_date .t_img img{
     width: 100%;
@@ -89,4 +92,23 @@
 }
 .t_h_box .t_id, .t_h_box .t_amount{
     font-family: 'rubik';
+}
+
+/* Transaction */
+.transaction-sec div{
+    text-align: center;
+}
+.transaction-sec h4{
+    color: #fff;
+    font-family: 'rubik';
+    font-size: 20px;
+}
+.transaction-sec button{
+    background-color: #26feb7;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
