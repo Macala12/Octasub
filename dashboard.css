@@ -95,24 +95,6 @@
     font-size: 13px;
 }
 
-/* Bottom Bar */
-.bottom_bar-sec{
-    position: fixed;
-    bottom: -3%;
-    padding: 15px 0px;
-    width: 100%;
-    background-color: #010f24;
-}
-.bottom_bar .col-12{
-    display: flex;
-    justify-content: space-between;
-}
-.bottom_bar .col-12 a{
-    color: #fff;
-    font-family: 'raleway';
-    font-size: 14px;
-}
-
 /* marquee */
 
 

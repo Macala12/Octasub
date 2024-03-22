@@ -1,0 +1,42 @@
+.body{
+    background-color: #010f24;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    margin-bottom: 100px;
+}
+
+/* Wallet */
+.acc_wallet-sec{
+    margin: 10px 0px;
+}
+.acc_wallet-sec .wallet{
+    text-align: center;
+    padding: 30px 0px 15px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.acc_wallet-sec .wallet_action_btn{
+    display: flex;
+    justify-content: center;
+}
+.wallet_action_btn .t_p_btn{
+    background-color: #26feb7;
+    color: #010f24;
+    border-bottom: 5px solid #e9fff8;
+    border-left: 5px solid #e9fff8;
+    margin: 0px 5px;
+    font-family: 'raleway';
+    font-weight: 700;
+}
+.wallet_action_btn .b_s_action{
+    background-color: #e9fff8;
+    color: #031635;
+    border-bottom: 5px solid #26feb7;
+    border-right: 5px solid #26feb7;
+    margin: 0px 5px;
+    font-family: 'raleway';
+    font-weight: 700;
+}
