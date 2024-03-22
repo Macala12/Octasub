@@ -71,9 +71,9 @@
     border-bottom-left-radius: 20px;
 }
 .wallet .wallet_icon{
-    background-color: #010f24;
+    background-color: #031635;
     border: 2px solid #e9fff8;
-    color: #26feb7;
+    color: #e9fff8;
     padding: 10px 13px;
     border-radius: 50%;
     position: absolute;
@@ -190,7 +190,7 @@
 
 /* ChatBox */
 .chat_box-sec{
-    min-height: 450px;
+    min-height: 400px;
 }
 .chat_box-sec .chat-box{
     padding-bottom: 150px;
@@ -236,25 +236,26 @@
     width: fit-content;
     padding: 5px 15px;
     font-size: 14px;
-    color: #010f24;
-    background-color: #26feb7;
-    border: 2px solid #26feb6c4;
+    color: #e9fff8;
+    background-color: #031635;
     border-radius: 20px;
+    border: 2px solid #e9fff8;
     position: relative;
     margin-bottom: 20px;
     float: right;
 }
 .chat-box .chat_outline span{
-    background-color: #26feb7;
-    color: #010f24;
+    background-color: #031635;
+    color: #e9fff8;
     padding: 10px 13px;
     border-radius: 50%;
+    border: 2px solid #e9fff8;
     position: absolute;
     top: -15px;
     right: -10px;
 }
 .chat-box .chat_outline h5{
-    color: #010f24;
+    color: #e9fff8;
     font-size: 14px;
     font-weight: 800;
 }
@@ -277,6 +278,7 @@
     color: #010f24;
     font-family: 'raleway';
     font-weight: 700;
+    font-size: 13px;
+    padding: 5px 10px;
     margin-top: 10px;
-    border-radius: 20px;
 }
