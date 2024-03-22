@@ -25,8 +25,9 @@
 .wallet_action_btn .t_p_btn{
     background-color: #26feb7;
     color: #010f24;
-    border-bottom: 5px solid #e9fff8;
-    border-left: 5px solid #e9fff8;
+    border-radius: 15px;
+    border-bottom: 3px solid #e9fff8;
+    border-left: 3px solid #e9fff8;
     margin: 0px 5px;
     font-family: 'raleway';
     font-weight: 700;
@@ -34,8 +35,9 @@
 .wallet_action_btn .b_s_action{
     background-color: #e9fff8;
     color: #031635;
-    border-bottom: 5px solid #26feb7;
-    border-right: 5px solid #26feb7;
+    border-radius: 15px;
+    border-bottom: 3px solid #26feb7;
+    border-right: 3px solid #26feb7;
     margin: 0px 5px;
     font-family: 'raleway';
     font-weight: 700;
