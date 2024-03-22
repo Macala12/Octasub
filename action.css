@@ -22,7 +22,7 @@
 }
 
 /* Action link */
-.action-box p{
+.action-box p, .coming_soon p{
     font-family: 'rubik';
     font-size: 14px;
     margin-left: 15px;
