@@ -50,7 +50,7 @@
     margin-top: 20px;
 }
 .transaction_history-sec .header_filter{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .transaction_history-sec .header_filter h6{
     color: #fff;
@@ -59,8 +59,11 @@
 }
 .transaction_history-sec .header_filter span i{
     font-size: 20px;
-    padding: 05px 10px;
-    color: #26feb7;
+    padding: 08px 10px;
+    margin: 0px 5px;
+    color: #031635;
+    background-color: #e9fff8;
+    border-radius: 50%;
 }
 .t_h_box{
     padding: 10px 10px 15px;
