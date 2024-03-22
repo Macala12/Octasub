@@ -25,20 +25,65 @@
 .wallet_action_btn .t_p_btn{
     background-color: #26feb7;
     color: #010f24;
-    border-radius: 15px;
+    border-radius: 10px;
     border-bottom: 3px solid #e9fff8;
     border-left: 3px solid #e9fff8;
     margin: 0px 5px;
     font-family: 'raleway';
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 900;
 }
 .wallet_action_btn .b_s_action{
     background-color: #e9fff8;
     color: #031635;
-    border-radius: 15px;
+    border-radius: 10px;
     border-bottom: 3px solid #26feb7;
     border-right: 3px solid #26feb7;
     margin: 0px 5px;
     font-family: 'raleway';
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+/* Transaction Section */
+.transaction_history-sec{
+    margin-top: 20px;
+}
+.transaction_history-sec .header_filter{
+    margin-bottom: 15px;
+}
+.transaction_history-sec .header_filter h6{
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'rubik';
+}
+.transaction_history-sec .header_filter span i{
+    font-size: 20px;
+    padding: 05px 10px;
+    color: #26feb7;
+}
+.t_h_box{
+    padding: 10px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.t_h_box .t_img_name_date{
+    display: inline-flex;
+}
+.t_h_box .t_img_name_date .t_img{
+    width: 50px;
+    height: 50px;
+}
+.t_h_box .t_img_name_date .t_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.t_h_box .t_img_name_date .t_name_date{
+    margin-left: 10px;
+    font-family: 'rubik';
+}
+.t_h_box .t_id, .t_h_box .t_amount{
+    font-family: 'rubik';
 }
