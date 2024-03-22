@@ -22,12 +22,26 @@
 }
 
 /* Action link */
-.action-box p, .coming_soon p{
+.action-box h5{
+    color: #fff;
+    font-size: 19px;
+    font-family: 'raleway';
+    font-weight: 700;
+    text-align: center;
+}
+.action-box p:not(.coming_soon_p){
     font-family: 'rubik';
     font-size: 14px;
     margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.coming_soon_p{
+    font-family: 'rubik';
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 .action-link, .coming_soon{
     display: grid;
