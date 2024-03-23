@@ -5,7 +5,7 @@
     padding: 0px;
 }
 .content{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 /* Header */
@@ -54,11 +54,15 @@
 .general-sec{
     margin-top: 70px;
 }
-.general-sec h6{
+.general-sec h6, .security-sec h6, .support-sec h6, .referral-sec h6{
     color: #fff;
     font-family: 'rubik';
+    font-size: 14px;
     margin-left: 13px;
     margin-bottom: 15px;
+}
+.security-sec, .support-sec, .referral-sec{
+    margin-top: 30px;
 }
 .set_box{
     border-radius: 20px;
@@ -69,8 +73,16 @@
     width: 100%;
     text-align: left;
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     font-family: 'raleway';
     padding: 15px 0px;
+}
+
+.r-r{
+    text-align: center;
+    color: #26feb7;
+    font-size: 13px;
+    font-family: 'raleway';
+    letter-spacing: 1px;
 }
