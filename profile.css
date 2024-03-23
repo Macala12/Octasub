@@ -10,8 +10,10 @@
 
 /* Header */
 .header .header_box{
-    height: 150px;
-    background-color: #1a273b;
+    height: 180px;
+    background-image: url('./Asset/img/11752425_4814627.jpg');
+    background-position: center;
+    background-size: cover;
     position: relative;
 }
 .header_box h4{
