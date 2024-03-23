@@ -11,7 +11,7 @@
 /* Header */
 .header .header_box{
     height: 150px;
-    background-color: #26feb7;
+    background-color: #1a273b;
     position: relative;
 }
 .header_box h4{
@@ -19,14 +19,15 @@
     font-size: 22px;
     font-weight: 700;
     padding: 0px 10px 0px;
-    color: #031635b5;
+    color: #fff;
 }
 .header_box .user_name{
-    color: #031635;
+    color: #fff;
     font-family: 'raleway';
     font-weight: 700;
+    font-size: 13px;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 10px;
 }
 .header_box .user_img{
