@@ -65,12 +65,12 @@
     font-size: 18px;
 }
 .security-sec, .support-sec, .referral-sec{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .set_box{
     border-radius: 20px;
     background-color: #1a273b;
-    padding: 10px 25px;
+    padding: 10px 15px;
 }
 .set_box button{
     width: 100%;
@@ -79,9 +79,10 @@
     font-size: 13px;
     font-weight: 500;
     font-family: 'raleway';
-    padding: 15px 0px;
+    padding: 8px 0px;
 }
 
+/* Right reserved */
 .r-r{
     text-align: center;
     color: #26feb7;

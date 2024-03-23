@@ -26,8 +26,6 @@
     background-color: #26feb7;
     color: #010f24;
     border-radius: 10px;
-    border-bottom: 3px solid #e9fff8;
-    border-left: 3px solid #e9fff8;
     margin: 0px 5px;
     font-family: 'raleway';
     font-size: 14px;
@@ -37,8 +35,6 @@
     background-color: #e9fff8;
     color: #031635;
     border-radius: 10px;
-    border-bottom: 3px solid #26feb7;
-    border-right: 3px solid #26feb7;
     margin: 0px 5px;
     font-family: 'raleway';
     font-size: 14px;
@@ -48,6 +44,7 @@
 /* Transaction Section */
 .transaction_history-sec{
     margin-top: 20px;
+    padding: 0px 15px;
 }
 .transaction_history-sec .header_filter{
     margin-bottom: 25px;
@@ -68,7 +65,7 @@
     padding: 10px 10px 15px;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 13px;
 }
 .t_h_box .t_img_name_date{
     display: inline-flex;
