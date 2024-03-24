@@ -55,14 +55,18 @@
     margin-left: 20px;
     font-family: 'raleway';
 }
+.transaction_history-sec .header_filter span span{
+    font-size: 13px;
+    font-family: 'rubik';
+    font-weight: 500;
+}
 .transaction_history-sec .header_filter span i{
     font-size: 15px;
     font-weight: 900;
     padding: 10px 10px 06px;
     margin: 0px 5px;
     text-align: center;
-    background-color: #26feb66b;
-    color: #e9fff8;
+    color: #26feb7;
     border-radius: 50%;
 }
 .t_h_box{
