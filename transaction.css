@@ -8,13 +8,39 @@
     margin-bottom: 100px;
 }
 
+/* Com Msg and Directory */
+.com_msg_dir{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0px 5px;
+}
+.com_msg_dir h4{
+    color: #fff;
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+}
+.com_msg_dir h4 i{
+    font-size: 15px;
+    color: #26feb7;
+}
+.com_msg_dir .dir{
+    padding-top: 22px;
+}
+.com_msg_dir .dir a{
+    color: #26feb7;
+    margin: 0px 8px;
+}
+
 /* Wallet */
 .acc_wallet-sec{
     margin: 10px 0px;
 }
 .acc_wallet-sec .wallet{
     text-align: center;
-    padding: 30px 0px 15px;
+    padding: 0px 0px 15px;
     font-size: 22px;
     font-weight: 700;
     font-family: 'rubik';
@@ -54,6 +80,9 @@
     color: #fff;
     margin-left: 20px;
     font-family: 'raleway';
+}
+.transaction_history-sec .header_filter h6 .ml-1{
+    font-size: 13px;
 }
 .transaction_history-sec .header_filter span span{
     font-size: 13px;
