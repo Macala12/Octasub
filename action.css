@@ -75,7 +75,8 @@
     width: fit-content;
     height: fit-content;
     padding: 8px 10px 6px;
-    background-color: #26feb7;
+    background-color: #1a273b;
+    color: #fff;
     font-size: 16px;
     font-weight: 800;
 }
