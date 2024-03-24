@@ -9,13 +9,16 @@
 }
 
 /* Header */
+.header{
+    margin-top: -20px;
+}
 .header h4{
     color: #fff;
     font-size: 19px;
     font-family: 'raleway';
     font-weight: 700;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .header h4 i{
     color: #26feb7;
@@ -36,8 +39,8 @@
     font-family: 'rubik';
     font-size: 14px;
     margin-left: 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .coming_soon_p{
     font-family: 'rubik';
@@ -53,14 +56,28 @@
 }
 .action-link span, .coming_soon span{
     font-family: 'raleway';
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     background-color: #1a273b;
     padding: 15px;
     border-radius: 20px;
+}
+.coming_soon span{
+    position: relative;
+}
+.coming_soon span .fi-rr-hourglass-end{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 10px 6px;
+    background-color: #26feb7;
+    font-size: 16px;
+    font-weight: 800;
 }
 .coming_soon span{
     background-color: #e9fff8;
@@ -79,6 +96,6 @@
 }
 .action-link span b, .coming_soon span b{
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
 }

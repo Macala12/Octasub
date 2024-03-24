@@ -15,3 +15,33 @@
     font-family: 'raleway';
     font-size: 14px;
 }
+
+/* Com Msg and Directory */
+.com_msg_dir{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0px 0px;
+}
+.com_msg_dir h4{
+    color: #fff;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
+}
+.com_msg_dir h4 i{
+    font-size: 15px;
+    color: #26feb7;
+}
+.com_msg_dir .dir{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1a273b;
+    border-radius: 20px;
+    height: fit-content;
+}
+.com_msg_dir .dir a{
+    color: #fff;
+    margin: 0px 8px;
+}
