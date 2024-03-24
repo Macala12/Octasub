@@ -1,0 +1,86 @@
+.body{
+    background-color: #010f24;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: inline-flex;
+    padding: 15px;
+    margin: 15px 0px;
+}
+.header i{
+    font-size: 25px;
+    margin-left: 10px;
+    color: #26feb7;
+}
+.header h5{
+    padding: 05px 0px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-family: 'rubik';
+    font-weight: 600;
+}
+
+.cc-box{
+    background-color: #e9fff8;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.cc-box h6{
+    padding: 0px;
+    font-family: 'rubik';
+}
+.cc-box p{
+    color: #010f24;
+    margin: 5px 0px 0px;
+    font-family: 'raleway';
+}
+
+.octasafe{
+    font-size: 14px;
+    font-family: 'raleway';
+    color: #26feb7;
+}
+.octasafe span{
+    color: #fff;
+    font-weight: 700;
+    padding: 0px 5px;
+}
+
+/* Purchase Form */
+.purchase-form{
+    margin-top: 15px;
+}
+.purchase-form form label{
+    font-family: 'raleway';
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.purchase-form form input, .purchase-form form select{
+    border-radius: 10px;
+    padding: 25px;
+    color: #fff;
+    margin: 5px 0px;
+    background-color: #1a273b;
+}
+.purchase-form form select{
+    padding: 0px 15px;
+    height: 52px;
+}
+.purchase-form form button{
+    width: 100%;
+    color: #010f24;
+    background-color: #26feb7;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 900;
+    font-family: 'raleway';
+}

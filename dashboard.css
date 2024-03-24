@@ -208,7 +208,7 @@
 
 /* ChatBox */
 .chat_box-sec{
-    min-height: 400px;
+    min-height: 420px;
 }
 .chat_box-sec .chat-box{
     padding-bottom: 150px;
@@ -228,7 +228,7 @@
 }
 .chat-box .chat_fill{
     width: fit-content;
-    padding: 5px 15px;
+    padding: 5px 15px 10px;
     font-size: 14px;
     color: #010f24;
     background-color: #e9fff8;
@@ -240,12 +240,17 @@
 .chat-box .chat_fill h5{
     font-size: 14px;
     font-weight: 800;
-    margin-left: 16px;
+    margin-left: 6px;
     color: #010f24;
 }
 .chat-box .chat_fill p{
     font-weight: 600;
     font-family: 'raleway';
+    margin-bottom: 0px;
+}
+.chat-box .chat_fill b, .chat-box .chat_outline b{
+    padding-bottom: 5px;
+    font-size: 11px;
 }
 .chat-box .chat_fill span{
     background-color: #e9fff8;
@@ -286,6 +291,7 @@
 .chat-box .chat_outline p{
     font-weight: 600;
     font-family: 'raleway';
+    margin-bottom: 0px;
 }
 
 /* Transaction */
