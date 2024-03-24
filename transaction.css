@@ -27,16 +27,20 @@
     color: #26feb7;
 }
 .com_msg_dir .dir{
-    padding-top: 22px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #26feb7;
+    border-radius: 20px;
+    height: fit-content;
 }
 .com_msg_dir .dir a{
-    color: #26feb7;
+    color: #031635;
     margin: 0px 8px;
 }
 
 /* Wallet */
 .acc_wallet-sec{
-    margin: -10px 0px 0px;
+    margin: -05px 0px 0px;
 }
 .acc_wallet-sec .wallet_box{
     display: flex;
