@@ -14,7 +14,7 @@
 }
 .header h4{
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'raleway';
     font-weight: 700;
     text-align: center;
@@ -25,6 +25,7 @@
 }
 .header span{
     color: #26feb7;
+    text-decoration: underline;
 }
 
 /* Action link */
