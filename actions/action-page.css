@@ -20,7 +20,7 @@
     color: #fff;
     text-align: center;
     width: 100%;
-    font-family: 'rubik';
+    font-family: 'raleway';
     font-weight: 600;
 }
 
@@ -32,6 +32,7 @@
 .cc-box h6{
     padding: 0px;
     font-family: 'rubik';
+    color: #010f24;
 }
 .cc-box p{
     color: #010f24;
@@ -47,6 +48,7 @@
 .octasafe span{
     color: #fff;
     font-weight: 700;
+    font-size: 13px;
     padding: 0px 5px;
 }
 
