@@ -17,6 +17,9 @@
     text-align: center;
     margin-top: 20px;
 }
+.header h4 i{
+    color: #26feb7;
+}
 .header span{
     color: #26feb7;
 }
@@ -55,7 +58,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    background-color: #031635;
+    background-color: #1a273b;
     padding: 15px;
     border-radius: 20px;
 }
