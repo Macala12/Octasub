@@ -65,7 +65,7 @@
     margin: 0px 5px;
     padding: 10px 20px;
     font-family: 'raleway';
-    font-weight: 900;
+    font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -77,13 +77,15 @@
     margin: 0px 5px;
     padding: 10px 20px;
     font-family: 'raleway';
-    font-weight: 900;
+    font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
 }
 .wallet{
-    background-color: #e9fff8;
-    color: #010f24;
+    background-image: url('./Asset/img/6299330_3229329.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #e9fff8;
     height: 130px;
     position: relative;
     padding: 10px;
@@ -96,21 +98,22 @@
     padding: 10px 13px;
     border-radius: 50%;
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 10px;
 }
 .wallet .wallet_amount{
     font-size: 20px;
     font-weight: 600;
-    font-family: 'rubik';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     bottom: 10px;
     left: 10px;
 }
 .wallet div{
     font-family: 'raleway';
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
+    margin-top: 10px;
 }
 .wallet-box p{
     font-family: 'raleway';
