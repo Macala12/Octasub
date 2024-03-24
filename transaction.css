@@ -13,12 +13,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    padding: 0px 5px;
+    padding: 0px 0px;
 }
 .com_msg_dir h4{
     color: #fff;
     font-family: 'raleway';
-    font-weight: 700;
+    font-weight: 900;
     font-size: 20px;
     padding: 10px;
 }
@@ -36,7 +36,7 @@
 
 /* Wallet */
 .acc_wallet-sec{
-    margin: 10px 0px;
+    margin: -20px 0px 0px;
 }
 .acc_wallet-sec .wallet{
     text-align: center;
