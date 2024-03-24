@@ -34,14 +34,13 @@
     font-size: 15px;
     color: #26feb7;
 }
-.com_msg_dir .dir{
-    margin-top: 15px;
+.dir{
     padding: 10px;
     background-color: #1a273b;
     border-radius: 20px;
     height: fit-content;
 }
-.com_msg_dir .dir a{
+.dir a{
     color: #fff;
     margin: 0px 8px;
 }
