@@ -89,10 +89,13 @@
 
 /* Modal */
 .modal .modal-content{
-
+    border: none !important;
+}
+.modal-dialog{
+    padding: 05px;
 }
 .modal-header, .modal-footer, .modal-body{
-    background-color: #010f24;
+    background-color: #1a273b;
 }
 .modal-header, .modal-footer, .modal-body{
   border: none !important;
@@ -131,7 +134,7 @@
     padding: 25px;
     color: #fff;
     margin-top: 04px;
-    background-color: #1a273b;
+    background-color: #010f24;
     text-align: center;
 }
 .modal-body input::placeholder{
