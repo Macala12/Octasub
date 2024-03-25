@@ -159,10 +159,10 @@
     color: #26feb7;
     font-weight: 800;
 }
-.modal-body .form-detail{
+.modal-body .form-detail, .support-opt{
     margin-top: 10px;
 }
-.modal-body .form-detail label{
+.modal-body .form-detail label, .modal-body .form-detail input{
     width: 100%;
 }
 .form-detail label{
@@ -179,6 +179,36 @@
     border-radius: 10px;
     font-family: 'rubik';
     width: 200px;
+}
+.form-detail input{
+    border-radius: 10px;
+    padding: 15px;
+    color: #010f24;
+    border: 2px solid #1a273b;
+    background-color: transparent;
+    margin-top: -10px;
+}
+.form-detail button{
+    width: 100%;
+    border: 2px solid #1a273b;
+    color: #010f24;
+    font-family: 'rubik';
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 15px;
+}
+.support-opt a{
+    width: 100%;
+    border: 2px solid #1a273b;
+    color: #010f24;
+    font-family: 'rubik';
+    font-weight: 700;
+    padding: 15px; 
+}
+.support-opt a h5{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
 }
 .modal-footer button{
     width: 100%;

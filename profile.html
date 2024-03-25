@@ -75,9 +75,15 @@
                 <i class="fi fi-rr-fingerprint ml-1 mt-2"></i>
             </h6>
             <div class="set_box">
-                <button class="btn">Change Password <i class="fi fi-sr-angle-circle-right float-right"></i></button>
-                <button class="btn">Change Pin <i class="fi fi-sr-angle-circle-right float-right"></i></button>
-                <button class="btn">Activities <i class="fi fi-sr-angle-circle-right float-right"></i></button>
+                <button class="btn" class="btn" data-toggle="modal" data-target="#password">
+                    Change Password <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
+                <button class="btn" class="btn" data-toggle="modal" data-target="#pin">
+                    Change Pin <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
+                <button class="btn">
+                    Activities <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
             </div>
         </section>
 
@@ -88,7 +94,9 @@
                 <i class="fi fi-rr-user-headset ml-1 mt-2"></i>
             </h6>
             <div class="set_box">
-                <button class="btn">Contact Support <i class="fi fi-sr-angle-circle-right float-right"></i></button>
+                <button class="btn" data-toggle="modal" data-target="#support">
+                    Contact Support <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
                 <button class="btn">About us <i class="fi fi-sr-angle-circle-right float-right"></i></button>
                 <button class="btn">T's and C's <i class="fi fi-sr-angle-circle-right float-right"></i></button>
             </div>
@@ -124,125 +132,225 @@
     </div>
 
     <!-- The Modal -->
-    <div class="modal fade" id="names">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-    
-            <!-- Modal Header -->
-            <div class="modal-header">
-            <h4 class="modal-title">You,ve got really <span>cool</span> names</h4>
-            <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
-            </div>
-    
-            <!-- Modal body -->
-            <div class="modal-body">
-                <h6><span>Oops...</span> You can't edit this detail</h6>
-                <div class="edit">Want to edit it? <a href="">Contact us</a></div>
-                <div class="form-detail">
-                    <label for="firstname">First name</label>
-                    <span id="" name="firstname">Alaoma</span>
-
-                    <label for="lastname" class="mt-4">Last name</label>
-                    <span id="" name="lastname">Michael</span>
+        <!-- General -->
+        <div class="modal fade" id="names">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">You,ve got really <span>cool</span> names</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
                 </div>
-            </div>
-    
-            <!-- Modal footer -->
-            <div class="modal-footer">
-            <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-    
-        </div>
-        </div>
-    </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h6><span>Oops...</span> You can't edit this detail</h6>
+                    <div class="edit">Want to edit it? <a href="">Contact us</a></div>
+                    <div class="form-detail">
+                        <label for="firstname">First name</label>
+                        <span id="" name="firstname">Alaoma</span>
 
-    <div class="modal fade" id="username">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-    
-            <!-- Modal Header -->
-            <div class="modal-header">
-            <h4 class="modal-title"><span>Epic</span> username you got here</h4>
-            <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
-            </div>
-    
-            <!-- Modal body -->
-            <div class="modal-body">
-                <h6><span>Oops...</span> You can't edit this detail</h6>
-                <div class="edit">Want to edit it? <a href="">Contact us</a></div>
-                <div class="form-detail">
-                    <label for="username">Username</label>
-                    <span id="" name="username">macalaoma</span>
+                        <label for="lastname" class="mt-4">Last name</label>
+                        <span id="" name="lastname">Michael</span>
+                    </div>
                 </div>
-            </div>
-    
-            <!-- Modal footer -->
-            <div class="modal-footer">
-            <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-    
-        </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="email">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-    
-            <!-- Modal Header -->
-            <div class="modal-header">
-            <h4 class="modal-title">You,ve got really <span>cool</span> email</h4>
-            <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
-            </div>
-    
-            <!-- Modal body -->
-            <div class="modal-body">
-                <h6><span>Oops...</span> You can't edit this detail</h6>
-                <div class="edit">Want to edit it? <a href="">Contact us</a></div>
-                <div class="form-detail">
-                    <label for="email">Email Address</label>
-                    <span id="" name="email">macalaoma12@gmail.com</span>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
                 </div>
+        
             </div>
-    
-            <!-- Modal footer -->
-            <div class="modal-footer">
-            <button type="button" class="btn" data-dismiss="modal">Close</button>
             </div>
-    
         </div>
-        </div>
-    </div>
 
-    <div class="modal fade" id="phonenumber">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-    
-            <!-- Modal Header -->
-            <div class="modal-header">
-            <h4 class="modal-title">You're <span>number?,</span> that was easy</h4>
-            <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
-            </div>
-    
-            <!-- Modal body -->
-            <div class="modal-body">
-                <h6><span>Oops...</span> You can't edit this detail</h6>
-                <div class="edit">Want to edit it? <a href="">Contact us</a></div>
-                <div class="form-detail">
-                    <label for="phonenumber">Phone Number</label>
-                    <span id="" name="phonenumber">08131635113</span>
+        <div class="modal fade" id="username">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title"><span>Epic</span> username you got here</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
                 </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h6><span>Oops...</span> You can't edit this detail</h6>
+                    <div class="edit">Want to edit it? <a href="">Contact us</a></div>
+                    <div class="form-detail">
+                        <label for="username">Username</label>
+                        <span id="" name="username">macalaoma</span>
+                    </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+        
             </div>
-    
-            <!-- Modal footer -->
-            <div class="modal-footer">
-            <button type="button" class="btn" data-dismiss="modal">Close</button>
             </div>
-    
         </div>
-        </div>
-    </div>
 
+        <div class="modal fade" id="email">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">You,ve got really <span>cool</span> email</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h6><span>Oops...</span> You can't edit this detail</h6>
+                    <div class="edit">Want to edit it? <a href="">Contact us</a></div>
+                    <div class="form-detail">
+                        <label for="email">Email Address</label>
+                        <span id="" name="email">macalaoma12@gmail.com</span>
+                    </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="phonenumber">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">You're <span>number?,</span> that was easy</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h6><span>Oops...</span> You can't edit this detail</h6>
+                    <div class="edit">Want to edit it? <a href="">Contact us</a></div>
+                    <div class="form-detail">
+                        <label for="phonenumber">Phone Number</label>
+                        <span id="" name="phonenumber">08131635113</span>
+                    </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
+
+        <!-- Security -->
+        <div class="modal fade" id="password">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Change your password</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="form-detail">
+                        <label for="password">Current Password</label>
+                        <input type="password" name="password">
+
+                        <label for="password" class="mt-3">New Password</label>
+                        <input type="password" name="password">
+
+                        <button class="btn">Change</button>
+                    </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="pin">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Change your pin</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="form-detail">
+                        <label for="password">Current pin</label>
+                        <input type="password" name="password">
+
+                        <label for="password" class="mt-3">New pin</label>
+                        <input type="password" name="password">
+
+                        <button class="btn">Change</button>
+                    </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
+
+        <!--Support-->
+        <div class="modal fade" id="support">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Help & Support</h4>
+                <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="support-opt">
+                        <a href="" class="btn">
+                            <h5>Contact Us via Whatsapp</h5>
+                        </a>
+                        <a href="" class="btn mt-3">
+                            <h5>Contact Us via Email</h5>
+                        </a>
+                        <a href="" class="btn mt-3">
+                            <h5>Contact Us via Telegram</h5>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
     <!--BottomBar-->
     <section class="bottom_bar-sec">
             <div class="container-fluid bottom_bar">
