@@ -53,10 +53,18 @@
                 <i class="fi fi-rr-info ml-1 mt-2"></i>
             </h6>
             <div class="set_box">
-                <button class="btn">Your Name <i class="fi fi-sr-angle-circle-right float-right"></i></button>
-                <button class="btn">Username <i class="fi fi-sr-angle-circle-right float-right"></i></button>
-                <button class="btn">Email Address <i class="fi fi-sr-angle-circle-right float-right"></i></button>
-                <button class="btn">Phone Number <i class="fi fi-sr-angle-circle-right float-right"></i></button>
+                <button class="btn" class="btn btn-primary" data-toggle="modal" data-target="#generalinfomodal">
+                    Your Name <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
+                <button class="btn">
+                    Username <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
+                <button class="btn">
+                    Email Address <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
+                <button class="btn">
+                    Phone Number <i class="fi fi-sr-angle-circle-right float-right"></i>
+                </button>
             </div>
         </section>
 
@@ -114,6 +122,40 @@
             All rights reserved
         </div>
     </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="generalinfomodal">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title">You,ve got really <span>cool</span> names</h4>
+            <button type="button" class="close d-none" data-dismiss="modal">&times;</button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h6><span>Oops...</span> You can't edit this detail</h6>
+                <div class="edit">Want to edit it? <a href="">Contact us</a></div>
+                <div class="form-detail">
+                    <label for="firstname">First name</label>
+                    <span id="">Alaoma</span>
+
+                    <label for="lastname" class="mt-4">Last name</label>
+                    <span id="">Michael</span>
+                </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">Close</button>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+
     <!--BottomBar-->
     <section class="bottom_bar-sec">
             <div class="container-fluid bottom_bar">

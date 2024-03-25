@@ -108,3 +108,70 @@
     font-family: 'raleway';
     letter-spacing: 1px;
 }
+
+/* Modal */
+.modal-header, .modal-body, .modal-footer{
+    background-color: #e9fff8;
+    border: none !important;
+}
+.modal-header h4{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 20px;
+}
+.modal-header h4 span{
+    color: #26feb7;
+}
+.modal-body{
+    padding-top: 5px !important;
+}
+.modal-body h6{
+    font-family: 'raleway';
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+}
+.modal-body h6 span{
+    font-weight: bolder;
+    color: #26feb7;
+}
+.modal-body .edit{
+    color: #1a273b;
+    font-family: 'rubik';
+}
+.modal-body .edit a{
+    color: #26feb7;
+    font-weight: 800;
+}
+.modal-body .form-detail{
+    margin-top: 10px;
+}
+.modal-body .form-detail label{
+    width: 100%;
+}
+.form-detail label{
+    margin-left: 08px;
+    margin-bottom: 20px;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 600;
+}
+.form-detail span{
+    background-color: #1a273b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'rubik';
+    width: 200px;
+}
+.modal-footer button{
+    width: 100%;
+    background-color: #26feb7;
+    color: #010f24;
+    font-family: 'rubik';
+    font-weight: 700;
+}
