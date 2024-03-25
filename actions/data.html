@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"/>
         <link rel="stylesheet" href="./action-page.css">
+        <link rel="stylesheet" href="../bottombar.css">
         <title>Octasub</title>
         <meta name="description" content="High-performance HTML based website template."/>
             <!-- Flaticon Icon -->
@@ -26,6 +27,16 @@
 </head>
 <body class="body">
     <div class="content">
+        <!--Com Msg and Directory-->
+        <section class="container-fluid com_msg_dir">
+            <h4>You're a star, <br> so shine bright <i class="fi fi-rr-face-awesome m-1"></i></h4>
+            <div class="dir">
+                <a href="./index.html"><i class="fi fi-sr-home-heart"></i></a>
+                <i class="fi fi-sr-angle-circle-right"></i>
+                <a href="./transaction.html"><i class="fi fi-br-list-check"></i></a>
+            </div>
+        </section>
+
         <!--Header-->
         <section class="container-fluid header">
             <a href="../action.html"><i class="fi fi-sr-angle-circle-left"></i></a>
@@ -68,12 +79,15 @@
                 <label for="phonenumber">Phone Number</label>
                 <input type="number" id="phonenumber" name="phonenumber" class="form-control">
 
+                <label for="tr-pin">Transaction Pin</label>
+                <input type="number" id="tr-pin" name="tr-pin" class="form-control">
+
                 <button class="btn" type="button" data-toggle="modal" data-target="#myModal">Buy<i class="fi fi-rr-face-awesome m-1"></i></button>
             </form>
         </section>
         
         <!-- The Modal -->
-        <div class="modal fade" id="myModal">
+        <div class="modal fade d-none" id="myModal">
             <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
         
