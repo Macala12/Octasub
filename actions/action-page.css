@@ -86,3 +86,73 @@
     font-weight: 900;
     font-family: 'raleway';
 }
+
+/* Modal */
+.modal .modal-content{
+
+}
+.modal-header, .modal-footer, .modal-body{
+    background-color: #010f24;
+}
+.modal-header, .modal-footer, .modal-body{
+  border: none !important;
+}
+.modal-title{
+    width: 100%;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 18px;
+    color: #fff;
+}
+.modal-header h4{
+    margin: 0px;
+    padding: 0px;
+}
+.modal-body .cart h6{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    margin-top: 10px;
+    font-family: 'raleway';
+    font-weight: 700;
+}
+.modal-body .cart span{
+    font-family: 'rubik';
+    font-size: 14px;
+}
+.modal-body .transaction-pin{
+    margin-top: 20px;
+}
+.modal-body label{
+    font-family: 'rubik';
+}
+.modal-body input{
+    border-radius: 10px;
+    padding: 25px;
+    color: #fff;
+    margin-top: 04px;
+    background-color: #1a273b;
+    text-align: center;
+}
+.modal-body input::placeholder{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+} 
+.modal-body button{
+    width: 100%;
+    background-color: #26feb7;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.modal-footer button{
+    width: 100%;
+    background-color: #e9fff8;
+    color: #010f24;
+    font-family: 'rubik';
+    font-weight: 700;
+}
