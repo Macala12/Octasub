@@ -110,9 +110,20 @@
 }
 
 /* Modal */
+.modal-content{
+    border-radius: 15px !important;
+}
 .modal-header, .modal-body, .modal-footer{
     background-color: #e9fff8;
     border: none !important;
+}
+.modal-header{
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+.modal-footer{
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
 }
 .modal-header h4{
     width: 100%;
@@ -134,6 +145,7 @@
     font-weight: 800;
     padding: 0px;
     margin: 0px;
+    color: #010f24;
 }
 .modal-body h6 span{
     font-weight: bolder;
