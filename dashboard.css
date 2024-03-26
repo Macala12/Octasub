@@ -234,12 +234,12 @@
 .api-box a{
     display: flex;
     justify-content: center;
+    margin: 20px 0px 10px;
 }
 .api-box a button{
     background-color: #031635;
     color: #fff;
     border-radius: 05px;
-    margin: 10px 0px;
     padding: 13px;
     font-family: 'raleway';
     font-size: 14px;
