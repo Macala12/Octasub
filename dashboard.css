@@ -91,9 +91,8 @@
     border-radius: 20px;
 }
 .wallet .wallet_icon{
-    background-color: #1a273b;
-    border: 2px solid #e9fff8;
-    color: #e9fff8;
+    background-color: #e9fff8;
+    color: #1a273b;
     padding: 10px 13px;
     border-radius: 50%;
     position: absolute;
