@@ -82,17 +82,17 @@
     letter-spacing: 1px;
 }
 .wallet{
-    background-color: #e9fff8;
-    border: 2px solid #26feb7;
-    color: #010f24;
+    background-color: #1a273b;
+    border: 2px solid #e9fff8;
+    color: #e9fff8;
     height: 130px;
     position: relative;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .wallet .wallet_icon{
-    background-color: #031635;
-    border: 2px solid #26feb7;
+    background-color: #1a273b;
+    border: 2px solid #e9fff8;
     color: #e9fff8;
     padding: 10px 13px;
     border-radius: 50%;
@@ -217,7 +217,7 @@
 .api-box h4{
     color: #010f24;
     font-family: 'rubik';
-    font-weight: 900;
+    font-weight: 700;
     font-size: 20px;
     padding: 10px;
     margin: 0px;
