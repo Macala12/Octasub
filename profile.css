@@ -100,11 +100,22 @@
     padding: 8px 0px;
 }
 
+.logout button{
+    width: 100%;
+    background-color: #26feb7;
+    border-radius: 10px;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 900;
+    margin: 15px 0px;
+    padding: 10px;
+}
+
 /* Right reserved */
 .r-r{
     text-align: center;
     color: #fff;
-    font-size: 10px;
+    font-size: 8px;
     font-family: 'raleway';
     letter-spacing: 1px;
 }
@@ -170,7 +181,7 @@
     margin-bottom: 20px;
     color: #010f24;
     font-family: 'raleway';
-    font-weight: 600;
+    font-weight: 700;
 }
 .form-detail span{
     background-color: #1a273b;
@@ -191,6 +202,7 @@
 .form-detail button{
     width: 100%;
     border: 2px solid #1a273b;
+    border-radius: 10px;
     color: #010f24;
     font-family: 'rubik';
     font-weight: 700;
@@ -200,6 +212,7 @@
 .support-opt a{
     width: 100%;
     border: 2px solid #1a273b;
+    border-radius: 10px;
     color: #010f24;
     font-family: 'rubik';
     font-weight: 700;
@@ -211,10 +224,30 @@
     margin: 0px;
     color: #010f24;
 }
+.support-opt p{
+    color: #010f24;
+    font-family: 'rubik';
+}
+.referral-works h5{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+.referral-works p{
+    font-family: 'raleway';
+    color: #010f24;
+    text-align: center;
+}
 .modal-footer button{
     width: 100%;
     background-color: #26feb7;
     color: #010f24;
     font-family: 'rubik';
     font-weight: 700;
+    border-radius: 10px;
 }
