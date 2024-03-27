@@ -17,12 +17,16 @@
     display:block;
 }
 .carousel-indicators{
-    
+    position: absolute;
+    bottom: 10% !important;
+}
+.carousel-indicator{
+    background-color: #1a273b !important;
 }
 .carousel-control-prev, .carousel-control-next{
     height: fit-content;
     position: absolute !important;
-    top: 91% !important;
+    top: 80% !important;
     color: #010f24 !important;
     background-color: #1a273b !important;
     width: fit-content !important;
