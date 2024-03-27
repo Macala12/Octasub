@@ -1,0 +1,71 @@
+.body{
+    background-color: #e9fff8;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    
+}
+.carousel{
+    height: 73vh;
+    position: relative;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+.carousel-indicators{
+    
+}
+.carousel-control-prev, .carousel-control-next{
+    height: fit-content;
+    position: absolute !important;
+    top: 91% !important;
+    color: #010f24 !important;
+    background-color: #1a273b !important;
+    width: fit-content !important;
+    opacity: 1 !important;
+    padding: 10px !important;
+    border-radius: 50%;
+}
+.carousel-item{
+    margin-top: 50px;
+}
+.carousel-item h4{
+    color: #1a273b;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 20px;
+}
+.carousel-item .slide-img img{
+    width: 400px;
+    height: 300px;
+}
+
+.auth-btn{
+    position: absolute;
+    bottom: 10px;
+}
+.auth-btn .auth-signup{
+    width: 100%;
+    background-color: #26feb7;
+    color: #010f24;
+    font-family: 'raleway';
+    font-weight: 900;
+    padding: 15px;
+    margin: 10px 0px 5px;
+}
+.auth-btn .auth-login{
+    width: 100%;
+    background-color: #1a273b;
+    color: #fff;
+    font-family: 'raleway';
+    font-weight: 900;
+    padding: 15px;
+    margin: 10px 0px 5px;
+}
