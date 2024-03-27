@@ -50,7 +50,10 @@
     width: 400px;
     height: auto;
 }
-
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 10px !important;
+    height: 10px !important;
+}
 .auth-btn{
     position: absolute;
     bottom: 10px;
