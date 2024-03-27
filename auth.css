@@ -1,0 +1,63 @@
+.body{
+    background-color: #010f24;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    background-color: #fff;
+}
+.auth_form{
+    margin-top: 70px;
+}
+.auth_form h4{
+    width: fit-content;
+    padding: 0px;
+    margin: 20px 10px 0px;
+    color: #fff !important;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 35px;
+}
+.auth_form span{
+    color: #26feb7;
+}
+.auth_form form{
+    margin-top: 30px;
+}
+.auth_form form label{
+    font-family: 'raleway';
+    margin-left: 5px;
+}
+.auth_form form input{
+    border-radius: 10px;
+    background-color: #1a273b;
+    border: 2px solid #26feb7;
+    padding: 25px;
+    color: #fff;
+    margin-top: 04px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.auth_form form button{
+    width: 100%;
+    background-color: #26feb7;
+    color: #010f24;
+    font-family: 'raleway';
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.auth_form form .forgot_password{
+    width: 100%;
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
