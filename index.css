@@ -44,7 +44,7 @@
 }
 .carousel-item .slide-img img{
     width: 400px;
-    height: 300px;
+    height: auto;
 }
 
 .auth-btn{
