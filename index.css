@@ -174,6 +174,7 @@
 
 /* Chat */
 .chat{
+    margin-top: 30px;
     padding: 0px 10px;
 }
 .chat .chat-box{
