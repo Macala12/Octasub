@@ -70,6 +70,7 @@
 .feature-box h5{
     color: #fff;
     font-family: 'poppins';
+    font-size: 17px;
     text-align: center;
     padding: 5px 0px 0px;
 }
@@ -80,7 +81,7 @@
 
 /* Note */
 .note{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .note h4{
     font-family: 'poppins';
@@ -88,6 +89,10 @@
     font-size: 20px;
     color: #fff;
     text-align: center;
+}
+.note p{
+    text-align: center;
+    font-size: 14px;
 }
 .note a{
     display: flex;
@@ -130,6 +135,7 @@
 .service-box h5{
     color: #fff;
     font-family: 'poppins';
+    font-size: 17px;
     text-align: center;
     padding: 5px 0px 0px;
 }
@@ -138,6 +144,32 @@
     font-size: 14px;
 }
 
+/* Data Plan */
+.data_plan{
+    padding: 15px;
+}
+.carousel, .carousel-inner{
+    min-height: 500px;
+}
+.carousel-caption{
+    color: #fff;
+    top: 50%;    
+    min-height: 500px;
+}
+.carousel-caption h4{
+    color: #fff;
+    font-family: 'poppins';
+    font-size: 17px;
+}
+.carousel-caption .plan_box .plan{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'poppins';
+    padding: 10px 5px;
+}
+
+
+/* Chat */
 .chat{
     padding: 0px 10px;
 }
@@ -180,7 +212,7 @@
 footer{
     padding: 10px !important;
     padding: 35px 35px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 footer .company-logo img{
     width: 100px;
