@@ -58,10 +58,7 @@
 .features .feature-box{
     padding: 15px 15px 9px;
 }
-.feature-box span{
-    display: flex;
-    justify-content: center;
-}
+
 .feature-box span img{
     width: 40px;
     height: 40px;
@@ -71,11 +68,9 @@
     color: #fff;
     font-family: 'poppins';
     font-size: 17px;
-    text-align: center;
     padding: 5px 0px 0px;
 }
 .feature-box p{
-    text-align: center;
     font-size: 14px;
 }
 
@@ -120,10 +115,6 @@
     margin: 0px;
     padding: 0px;
 }
-.service-box span{
-    display: flex;
-    justify-content: center;
-}
 .service-box span img{
     width: 40px;
     height: 40px;
@@ -136,11 +127,9 @@
     color: #fff;
     font-family: 'poppins';
     font-size: 17px;
-    text-align: center;
     padding: 5px 0px 0px;
 }
 .service-box p{
-    text-align: center;
     font-size: 14px;
 }
 
@@ -148,13 +137,20 @@
 .data_plan{
     padding: 15px;
 }
+.carousel h4{
+    color: #fff;
+    font-family: 'rubik';
+    font-size: 19px;
+    text-align: center;
+}
 .carousel, .carousel-inner{
-    min-height: 500px;
+    min-height: 550px;
 }
 .carousel-caption{
     color: #fff;
     top: 50%;    
-    min-height: 500px;
+    padding: 0px 0px !important;
+    min-height: 550px;
 }
 .carousel-caption h4{
     color: #fff;
@@ -166,6 +162,13 @@
     justify-content: space-around;
     font-family: 'poppins';
     padding: 10px 5px;
+}
+.carousel-item{
+    margin-top: 20px;
+}
+.carousel-item span img{
+    width: 70px;
+    height: 70px;
 }
 
 
@@ -212,7 +215,7 @@
 footer{
     padding: 10px !important;
     padding: 35px 35px;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 footer .company-logo img{
     width: 100px;
