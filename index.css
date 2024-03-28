@@ -19,6 +19,7 @@
 /* Header */
 .header{
     margin: 100px 0px 50px;
+    padding: 0px 20px !important;
 }
 .header .header-writeup{
 
@@ -52,19 +53,25 @@
 /* Features */
 .features{
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .features .feature-box{
-    padding: 15px;
+    padding: 15px 15px 9px;
 }
 .feature-box span{
     display: flex;
     justify-content: center;
 }
+.feature-box span img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
 .feature-box h5{
     color: #fff;
     font-family: 'poppins';
     text-align: center;
+    padding: 5px 0px 0px;
 }
 .feature-box p{
     text-align: center;
@@ -87,11 +94,11 @@
     justify-content: center;
 }
 .note button{
-    width: fit-content;
+    width: 60%;
     background-color: #26feb7;
     color: #010f24;
     font-family: 'raleway';
-    font-weight: 900;
+    font-weight: 800;
     padding: 10px;
     margin-top: 10px;
 }
@@ -103,6 +110,7 @@
 .services h4{
     color: #fff;
     font-family: 'rubik';
+    font-size: 19px;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -111,6 +119,11 @@
     display: flex;
     justify-content: center;
 }
+.service-box span img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
 .services .service-box{
     padding: 15px;
 }
@@ -118,6 +131,7 @@
     color: #fff;
     font-family: 'poppins';
     text-align: center;
+    padding: 5px 0px 0px;
 }
 .service-box p{
     text-align: center;
@@ -125,17 +139,18 @@
 }
 
 .chat{
-    
+    padding: 0px 10px;
 }
 .chat .chat-box{
     background-color: #26feb7;
-    padding: 20px 10px 10px;
-    border-radius: 15px;
+    padding: 20px 10px 15px;
+    border-radius: 10px;
 }
 .chat-box h4{
     color: #010f24;
     font-family: 'rubik';
     font-weight: 700;
+    font-size: 20px;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -159,7 +174,7 @@
     font-family: 'raleway';
     font-weight: 900;
     padding: 15px;
-    border-radius: 15pc;
+    border-radius: 10px;
 }
 
 footer{
