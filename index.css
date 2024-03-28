@@ -156,6 +156,7 @@
     color: #fff;
     font-family: 'poppins';
     font-size: 17px;
+    padding-top: 5px;
 }
 .carousel-caption .plan_box .plan{
     display: flex;
@@ -169,8 +170,8 @@
 .carousel-item span img{
     width: 70px;
     height: 70px;
+    margin-bottom: 5px;
 }
-
 
 /* Chat */
 .chat{
