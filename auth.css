@@ -4,6 +4,14 @@
     margin: 0px;
     padding: 0px;
 }
+.navbar{
+    background-color: #010f24;
+    padding: 15px !important;
+}
+.navbar-brand{
+    font-family: 'poppins';
+    font-weight: 700;
+}
 .company-logo{
     margin-top: 20px;
     display: none;
@@ -18,7 +26,7 @@
 .header-sec{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 .header-sec img{
     width: 180px;
@@ -27,6 +35,13 @@
 }
 .auth_form{
     margin-top: 0px;
+}
+.auth_form p{
+    font-size: 14px;
+    font-family: 'poppins';
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
 }
 .auth_form h4{
     width: fit-content;
@@ -42,7 +57,7 @@
     color: #26feb7;
 }
 .auth_form form{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .auth_form form label{
     font-family: 'raleway';
