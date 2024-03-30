@@ -1,27 +1,32 @@
-      //Display current time and date
-      // create a function to update the date and time
-      function updateDateTime() {
-        // create a new `Date` object
-        const now = new Date();
 
-        // get the current date and time as a string
-        const currentDateTime = now.toLocaleString();
+//Fade in animation
+let elementsArray = document.querySelectorAll(".tile");
+console.log(elementsArray);
+window.addEventListener('scroll', fadeIn ); 
+function fadeIn() {
+    for (var i = 0; i < elementsArray.length; i++) {
+        var elem = elementsArray[i]
+        var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+        if (distInView < 0) {
+            elem.classList.add("inView");
+        } else {
+            elem.classList.remove("inView");
+        }
+    }
+}
+fadeIn();
 
-        // update the `textContent` property of the `span` element with the `id` of `datetime`
-        document.querySelector('#datetime').textContent = currentDateTime;
-      }
-
-      // call the `updateDateTime` function every second
-      setInterval(updateDateTime, 1000);
-
-
-      // Add Spinner to buttons
-      function spinner() {
-        document.getElementById("act-btn").innerHTML = `
-        <span class="spinner-border spinner-border-sm"></span>
-        `
-        document.getElementById("ser-btn").innerHTML = `
-        <span class="spinner-border spinner-border-sm"></span>
-        `
-        return;
-        } 
+// Loading Screen
+document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+        document.querySelector(
+            "body").style.visibility = "hidden";
+        document.querySelector(
+            "#loader").style.visibility = "visible";
+    } else {
+        document.querySelector(
+            "#loader").style.display = "none";
+        document.querySelector(
+            "body").style.visibility = "visible";
+    }
+};

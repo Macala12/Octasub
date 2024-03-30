@@ -5,8 +5,33 @@
     padding: 0px;
 }
 .content{
-      
 }
+
+/* Page Loader */
+#loader {
+    border: 12px solid #1a273b;
+    border-radius: 50%;
+    border-top: 12px solid #26feb7;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 /* CSS - fade in */
 .tile {
@@ -35,6 +60,7 @@ section {
     padding:20px;
 }
 
+/* Navbar */
 .navbar{
     background-color: #010f24;
     padding: 15px !important;
@@ -54,6 +80,7 @@ section {
     padding: 10px;
     margin-top: 5px;
 }
+
 /* Header */
 .header{
     margin: 100px 0px 50px;
