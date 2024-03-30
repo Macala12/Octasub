@@ -68,7 +68,7 @@
     border-radius: 05px;
     margin: 0px 5px;
     padding: 10px 20px;
-    font-family: 'poppins';
+    font-family: 'rubik';
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@
     border-radius: 05px;
     margin: 0px 5px;
     padding: 10px 20px;
-    font-family: 'poppins';
+    font-family: 'rubik';
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
@@ -219,7 +219,7 @@
 }
 .api-box h4{
     color: #010f24;
-    font-family: 'rubik';
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 18px;
     padding: 10px;
