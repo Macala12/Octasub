@@ -32,7 +32,6 @@
     }
 }
 
-
 /* CSS - fade in */
 .tile {
     -webkit-transform: translateY(50px) translateZ(0);
@@ -202,6 +201,7 @@ section {
     font-family: 'poppins';
     font-size: 15px;
     padding: 5px 0px 0px;
+    margin-bottom: 0px;
 }
 .service-box p{
     font-size: 14px;
@@ -289,11 +289,12 @@ section {
     justify-content: center;
 }
 .chat-box button{
-    width: fit-content;
+    width: 100%;
     background-color: #010f24;
     color: #26feb7;
     font-family: 'raleway';
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 14px;
     padding: 15px;
     border-radius: 10px;
 }
