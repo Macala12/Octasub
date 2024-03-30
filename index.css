@@ -69,7 +69,7 @@ section {
     font-family: 'poppins';
     font-weight: 700;
 }
-.nav-item a{
+.nav-item a:not(.api-doc){
     width: 100%;
     border-radius: 10px;
     border: 2px solid #26feb7;
@@ -77,6 +77,16 @@ section {
     font-family: 'poppins';
     font-weight: 700;
     padding: 10px;
+    margin-top: 5px;
+}
+.api-doc{
+    width: 100%;
+    border-radius: 10px !important;
+    background-color: #e9fff8 !important;
+    color: #1a273b !important;
+    font-family: 'poppins';
+    font-weight: 700 !important;
+    padding: 10px !important;
     margin-top: 5px;
 }
 
