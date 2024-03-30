@@ -7,13 +7,35 @@
 .content{
     margin-top: 100px;
 }
+/* Navbar */
 .navbar{
     background-color: #010f24;
     padding: 15px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.030), 0 6px 20px 0 rgba(0, 0, 0, 0.030);
 }
 .navbar-brand{
     font-family: 'poppins';
     font-weight: 700;
+}
+.nav-item a:not(.api-doc){
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #26feb7;
+    color: #26feb7 !important;
+    font-family: 'poppins';
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 5px;
+}
+.api-doc{
+    width: 100%;
+    border-radius: 10px !important;
+    background-color: #e9fff8 !important;
+    color: #1a273b !important;
+    font-family: 'poppins';
+    font-weight: 700 !important;
+    padding: 10px !important;
+    margin-top: 5px;
 }
 
 .auth_form p{

@@ -87,7 +87,6 @@
 }
 .wallet{
     background-color: #1a273b;
-    border: 2px solid #e9fff8;
     color: #e9fff8;
     height: 130px;
     position: relative;
@@ -140,25 +139,25 @@
 .quick-link{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 30px;
+    column-gap: 10px;
 }
 .quick-link span{
     font-family: 'raleway';
     font-size: 15px;
     font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1a273b;
     display: flex;
     flex-direction: column;
 }
 .quick-link span i{
     color: #26feb7;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    text-align: center;
+    padding: 10px 10px 3px;
     border-radius: 50%;
-    margin-left: 8px;
 }
 .quick-link span b{
-    margin-top: 5px;
     font-size: 13px;
     text-align: center;
 }
@@ -213,12 +212,12 @@
     margin-top: 35px;
 }
 .api_bulk .api-box{
-    background-color: #26feb7;
+    background-color: #1a273b;
     padding: 10px;
     border-radius: 10px;
 }
 .api-box h4{
-    color: #010f24;
+    color: #fff;
     font-family: 'poppins';
     font-weight: 700;
     font-size: 18px;
@@ -227,7 +226,7 @@
     text-align: center;
 }
 .api-box p{
-    color: #010f24;
+    color: #fff;
     font-family: 'raleway';
     font-weight: 700;
     font-size: 14px;
@@ -241,8 +240,8 @@
     margin: 20px 0px 10px;
 }
 .api-box a button{
-    background-color: #031635;
-    color: #fff;
+    background-color: #e9fff8;
+    color: #010f24;
     border-radius: 05px;
     padding: 13px;
     font-family: 'raleway';
