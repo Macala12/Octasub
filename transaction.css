@@ -40,9 +40,9 @@
     border-radius: 05px;
     margin: 0px 5px;
     padding: 10px 25px;
-    font-family: 'raleway';
+    font-family: 'poppins';
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 700;
 }
 .wallet_action_btn .b_s_action{
     background-color: #e9fff8;
@@ -50,9 +50,9 @@
     border-radius: 05px;
     margin: 0px 5px;
     padding: 10px 15px;
-    font-family: 'raleway';
+    font-family: 'poppins';
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* Transaction Section */

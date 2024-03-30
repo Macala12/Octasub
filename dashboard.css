@@ -135,16 +135,20 @@
 }
 .quick-link{
     display: grid;
+    background-color: #1a273b;
+    padding: 10px;
+    border-radius: 20px;
     grid-template-columns: auto auto auto auto;
     column-gap: 10px;
+}
+.quick-link a{
+    color: #fff;
 }
 .quick-link span{
     font-family: 'raleway';
     font-size: 15px;
     font-weight: 700;
-    padding: 5px;
     border-radius: 10px;
-    background-color: #1a273b;
     display: flex;
     flex-direction: column;
 }
@@ -306,7 +310,7 @@
     padding: 5px 15px;
     font-size: 14px;
     color: #e9fff8;
-    background-color: #031635;
+    background-color: #1a273b;
     border-radius: 20px;
     border: 2px solid #e9fff8;
     position: relative;
@@ -314,7 +318,7 @@
     float: right;
 }
 .chat-box .chat_outline span{
-    background-color: #031635;
+    background-color: #1a273b;
     color: #e9fff8;
     padding: 10px 13px;
     border-radius: 50%;
