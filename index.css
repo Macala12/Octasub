@@ -10,12 +10,22 @@
 .navbar{
     background-color: #010f24;
     padding: 15px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.030), 0 6px 20px 0 rgba(0, 0, 0, 0.030);
 }
 .navbar-brand{
     font-family: 'poppins';
     font-weight: 700;
 }
-
+.nav-item a{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #26feb7;
+    color: #26feb7 !important;
+    font-family: 'poppins';
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 5px;
+}
 /* Header */
 .header{
     margin: 100px 0px 50px;
@@ -106,6 +116,15 @@
 /* services */
 .services{
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+.service-box{
+    text-align: center;
+    background-color: #1a273b;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
 .services h4{
     color: #fff;
@@ -116,9 +135,9 @@
     padding: 0px;
 }
 .service-box span img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 5px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
 }
 .services .service-box{
     padding: 15px;
@@ -126,7 +145,7 @@
 .service-box h5{
     color: #fff;
     font-family: 'poppins';
-    font-size: 17px;
+    font-size: 15px;
     padding: 5px 0px 0px;
 }
 .service-box p{
@@ -136,6 +155,16 @@
 /* Data Plan */
 .data_plan{
     padding: 15px;
+}
+.data_plan_box .btn{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #26feb7;
+    color: #26feb7 !important;
+    font-family: 'poppins';
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 5px;
 }
 .carousel h4{
     color: #fff;

@@ -46,6 +46,8 @@
 }
 .header-sec .user-greeting{
     font-size: 14px;
+    font-family: 'poppins';
+    font-weight: 700;
     color: #26feb7;
 }
 .header-sec .h_icons .fi{

@@ -31,7 +31,7 @@
         <section class="container-fluid com_msg_dir">
             <h4>Turn that frown<i class="fi fi-rr-frown m-1"></i> <br> upside down <i class="fi fi-rr-face-awesome m-1"></i></h4>
             <div class="dir">
-                <a href="./index.html"><i class="fi fi-sr-home-heart"></i></a>
+                <a href="./dashboard.html"><i class="fi fi-sr-home-heart"></i></a>
                 <i class="fi fi-sr-angle-circle-right"></i>
                 <a href="./transaction.html"><i class="fi fi-sr-receipt"></i></a>
             </div>
@@ -58,11 +58,11 @@
                     Transaction History
                     <i class="fi fi-rs-time-past ml-1"></i>
                     <span class="float-right">
-                        <span><b>4 </b>Transactions</span>
+                        <span><b id="tr-counter"> </b>Transactions</span>
                     </span>
                 </h6>
             </div>
-            <div class="t_history">
+            <div class="t_history" id="tr-history">
                 <div class="t_h_box">
                     <div class="t_img_name_date">
                         <div class="t_img">
@@ -209,6 +209,13 @@
             </div>
     </section>
 </body>
+<script>
+        //Count transactions
+        let thbox = document.getElementsByClassName("t_h_box");
+        let trcountnumber = thbox.length;
+        document.getElementById("tr-counter").innerHTML = trcountnumber + " ";
+</script>
+
 <script defer src="/_vercel/insights/script.js"></script>
 <!-- jQuery library -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
