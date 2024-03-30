@@ -29,7 +29,7 @@
   </head>
   
   <body class="body">
-    <div class="content">
+    <div class="content container-fluid">
         <!--Navbar-->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <!-- Brand -->
@@ -52,8 +52,9 @@
               </ul>
             </div>
         </nav>
+
         <!--Header-->
-        <section class="container header">
+        <section class="container header tile bottom-right">
             <div class="header-img">
                 <img src="./Asset/img/lifetime-lp-hero-img.png" alt="">
             </div>
@@ -70,7 +71,7 @@
         </section>
 
         <!--Features-->
-        <section class="container features">
+        <section class="container features tile bottom-right">
             <div class="feature-box">
                 <span>
                     <img src="./Asset/img/dependable.png" alt="">
@@ -108,7 +109,7 @@
         </section>
 
         <!--Note-->
-        <div class="container note">
+        <div class="container tile bottom-right note">
             <img src="./Asset/img/advanced-security-features-2x.webp" alt="">
             <h4>We are what's right for you!</h4>
             <p>Octasub, remember the name cause we are the best choice when it comes to airtime, data subscription and bills payment</p>
@@ -118,7 +119,7 @@
         </div>
 
         <!--Services-->
-        <section class="container services">
+        <section class="container tile bottom-right services">
             <div class="service-box">
                 <span>
                     <img src="./Asset/img/mobile-data.png" alt="">
@@ -180,7 +181,7 @@
         </section>
 
         <!--Data plan prices-->
-        <section class="container data_plan">
+        <section class="container tile bottom-right data_plan">
             <div class="data_plan_box">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <h4>Our Data Plan Prices</h4>
@@ -477,6 +478,23 @@
         </footer>
     </div>
   </body>
+  <script>
+    let elementsArray = document.querySelectorAll(".tile");
+    console.log(elementsArray);
+    window.addEventListener('scroll', fadeIn ); 
+    function fadeIn() {
+        for (var i = 0; i < elementsArray.length; i++) {
+            var elem = elementsArray[i]
+            var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+            if (distInView < 0) {
+                elem.classList.add("inView");
+            } else {
+                elem.classList.remove("inView");
+            }
+        }
+    }
+    fadeIn();
+  </script>
 
   <script defer src="/_vercel/insights/script.js"></script>
   <!-- jQuery library -->

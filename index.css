@@ -7,6 +7,34 @@
 .content{
     
 }
+
+/* CSS - fade in */
+.tile {
+    -webkit-transform: translateX(50px) rotate(-5deg) translateZ(0);
+    transform: translateX(50px) rotate(-5deg) translateZ(0);
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+}
+.bottom-right.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+
+section {
+    padding:20px;
+}
+
 .navbar{
     background-color: #010f24;
     padding: 15px !important;
