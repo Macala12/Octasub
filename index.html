@@ -1,495 +1,654 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"/>
-    <link rel="stylesheet" href="./index.css">
-    <title>Octasub</title>
-    <meta name="description" content="High-performance HTML based website template."/>
-        <!-- Flaticon Icon -->
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<html lang="en" class="no-js" >
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
     
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  </head>
-  
-  <body class="body">
-    <div id="loader" class="center"></div>
-    <div class="content">
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#">Octasub</a>
-          
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link btn login-btn" href="./auth-login.html">Login to account</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link btn signup-btn" href="./auth-signup.html">Get started</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn api-doc" href="./auth-signup.html">API Doc</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-
-        <!--Header-->
-        <section class="container header tile bottom-right">
-            <div class="header-img">
-                <img src="./Asset/img/lifetime-lp-hero-img.png" alt="">
-            </div>
-            <div class="header-writeup">
-                <h4>Digital Services That Beat The Market</h4>
-                <p>
-                    With Octasub, topping up your airtime, 
-                    data subscription and bills payment will be a breeze.
-                </p>
-                <a href="./auth-signup.html" type="" class="btn">
-                    Get Started
-                </a>
-            </div>
-        </section>
-
-        <!--Features-->
-        <section class="container features tile bottom-right">
-            <div class="feature-box">
-                <span>
-                    <img src="./Asset/img/dependable.png" alt="">
-                </span>
-                <h5>Reliable</h5>
-                <p>
-                    At Octasub, we pride ourselves on being a fully optimized platform that 
-                    prioritizes reliability and dependability. Rest assured that every 
-                    transaction you make with us will provide you with 100% value.
-                </p>
-            </div>
-            <div class="feature-box">
-                <span>
-                    <img src="./Asset/img/engineering.png" alt="">
-                </span>
-                <h5>Fully Automated</h5>
-                <p>
-                    Our service operates using state-of-the-art technology to ensure efficiency. 
-                    We have automated our data delivery and wallet funding processes, allowing 
-                    for quick and seamless transactions. You can expect instant delivery of 
-                    airtime top-ups and data purchases.
-                </p>
-            </div>
-            <div class="feature-box">
-                <span>
-                    <img src="./Asset/img/customer-service.png" alt="">
-                </span>
-                <h5>24/7 Customer Support</h5>
-                <p>
-                    Need assistance? Our customer service team is always ready to help, 
-                    just a click away. Feel free to reach out to us for any queries or concerns. 
-                    Rest assured, we strive to attend to all transactions promptly, typically within 5-15 minutes.
-                </p>
-            </div>
-        </section>
-
-        <!--Note-->
-        <div class="container tile bottom-right note">
-            <img src="./Asset/img/advanced-security-features-2x.webp" alt="">
-            <h4>We are what's right for you!</h4>
-            <p>Octasub, remember the name cause we are the best choice when it comes to airtime, data subscription and bills payment</p>
-            <a href="">
-                <button class="btn">Get Started</button>
-            </a>
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
+    </div>
 
-        <!--Services-->
-        <section class="container tile bottom-right services">
-            <div class="service-box">
-                <span>
-                    <img src="./Asset/img/mobile-data.png" alt="">
-                </span>
-                <h5>Mobile Data</h5>
-                <p class="d-none">
-                    Never miss important calls or a beat online, use Octasub, 
-                    reliable recharge services for your airtime and data at a 
-                    very cost-effective rate. We’ve got you covered.
-                </p>
-            </div>
 
-            <div class="service-box">
-                <span>
-                    <img src="./Asset/img/phone-call.png" alt="">
-                </span>
-                <h5>Airtime</h5>
-                <p class="d-none">
-                    Never miss important calls or a beat online, use Octasub, 
-                    reliable recharge services for your airtime and data at a 
-                    very cost-effective rate. We’ve got you covered.
-                </p>
-            </div>
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap ss-home">
 
-            <div class="service-box">
-                <span>
-                    <img src="./Asset/img/light-bulb.png" alt="">
-                </span>
-                <h5>Electricity Bill</h5>
-                <p class="d-none">
-                    With a few simple clicks, you will easily manage your electricity 
-                    bills from your comfort zone. Say good-bye to the manual electricity 
-                    bill payment and long queues.
-                </p>
-            </div>
 
-            <div class="service-box">
-                <span>
-                    <img src="./Asset/img/graduation-cap.png" alt="">
-                </span>
-                <h5>Educational Pin</h5>
-                <p class="d-none">
-                    Unlock the potential with our premium online education services. 
-                    Embark on the transformative learning journey today as you can check your results
-                </p>
-            </div>
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
 
-            <div class="service-box">
-                <span>
-                    <img src="./Asset/img/exchange-rate.png" alt="">
-                </span>
-                <h5>Airtime to cash</h5>
-                <p class="d-none">
-                    Get ready to make extra cash! Convert your unused airtime to cash with our 
-                    airtime to cash service. Say goodbye to wasted airtime and hello to instant 
-                    cash in your wallet or bank account.
-                </p>
-            </div>
-        </section>
+            <div class="row s-header__inner width-sixteen-col">
 
-        <!--Data plan prices-->
-        <section class="container tile bottom-right data_plan">
-            <div class="data_plan_box">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <h4>Our Data Plan Prices</h4>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="carousel-caption">
-                            <span>
-                                <img src="./Asset/img/mtn-data.png" alt="">
-                            </span>
-                            <h4>MTN Data Plan</h4>
-                            <div class="plan_box">
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">1GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2.5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">3GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">4GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">10GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item ">
-                        <div class="carousel-caption">
-                            <span>
-                                <img src="./Asset/img/glo-data.png" alt="">
-                            </span>
-                            <h4>GLO Data Plan</h4>
-                            <div class="plan_box">
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">1GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2.5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">3GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">4GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">10GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="carousel-caption">
-                            <span>
-                                <img src="./Asset/img/airtel-data.png" alt="">
-                            </span>
-                            <h4>Airtel Data Plan</h4>
-                            <div class="plan_box">
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">1GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2.5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">3GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">4GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">10GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="carousel-caption">
-                            <span>
-                                <img src="./Asset/img/9mobile-data 2.png" alt="">
-                            </span>
-                            <h4>9Mobile Data Plan</h4>
-                            <div class="plan_box">
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">500mb</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">1GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">2.5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">3GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">4GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">5GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                                <div class="plan">
-                                    <span class="plan_size">10GB</span>
-                                    <span class="plan_amount">N130</span>
-                                    <span class="plan_duration">1 Month</span>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="./apple-touch-icon.png" width="70px" alt="Homepage">
+                        </a>
                     </div>
 
-                    <!--Control button-->
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Journal</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul> s-header__menu-links
+
+                    <div class="s-header__contact">
+                        <a href="https://wa.me/message/LV5OMAEJUVQAL1" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                    </div> <!-- s-header__contact -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- # site main content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+            <!-- intro
+            ----------------------------------------------- -->
+            <section id="intro" class="s-intro">
+
+                <div class="row s-intro__content width-sixteen-col">
+
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Michael Alaoma - ( Fullstack Developer )</div>
+                            <h1 class="s-intro__content-title">
+                            I create websites, <br>
+                            hybrid apps and graphic designs <br>
+                            strategic for your <br>
+                            business that get <br>
+                            results.
+                            </h1>
+                        </div> <!-- s-intro__content-text -->
+
+                        <div class="s-intro__content-media"> 
+                            <div class="s-intro__content-media-inner">                               
+                                <img src="images/IMG_0817.JPG" srcset="images/IMG_0817.JPG 1x, images/iIMG_0817.JPG 2x" alt="">
+                                <div class="lines">                               
+                                    <span></span>                                  
+                                </div>
+                            </div>
+                        </div> <!-- s-intro__content-media -->                      
+
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                                </div>
+                                <span>Scroll for more</span>
+                            </a>
+                        </div> <!-- s-intro__scroll-down -->
+                        
+                    </div> <!-- s-intro__content-inner -->
+
+                </div> <!-- s-intro__content -->
+
+            </section> <!-- end s-intro -->
+
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about target-section">
+
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+
+                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
+
+                        <div class="section-header grid-section-split__header" style="margin-top: 100px;">
+                            <div class="text-pretitle">About</div>                           
+                            <h2 class="text-display-title">
+                            Michael - The Inspiring and ambitious Developer
+                            </h2>                           
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content-main grid-section-split__primary">
+                            <p class="attention-getter">
+                                Web developers play a crucial role in creating and maintaining websites. 
+                                They are responsible for coding, designing, and ensuring the functionality of websites. 
+                                With their expertise in programming languages such as HTML, CSS, and JavaScript, 
+                                web developers bring creative ideas to life online. Their attention to detail and 
+                                problem-solving skills are essential in delivering user-friendly and visually appealing websites. 
+                                In today's digital age, the demand for skilled web developers continues to grow, highlighting their 
+                                importance in the ever-evolving world of technology.
+                            </p>
+                            <p class="attention-getter">
+                                As a Web developer, i take upmost inspiration and detail in creating the perfect website for my clients 
+                                while taking their criteria and requirement to the maximum. Let me help you grow and boost your business
+                                to its max peak with a creative and professional website and app.
+                            </p>
+                        </div> <!-- end s-about__content-main -->
+
+                        <div class="s-about__content-btn grid-section-split__bottom">
+                            <ul class="s-about__social social-list">
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                        <span class="u-screen-reader-text">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                        <span class="u-screen-reader-text">Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                        <span class="u-screen-reader-text">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                                        <span class="u-screen-reader-text">Dribbble</span>
+                                    </a>
+                                </li>
+                            </ul> <!-- end s-footer__social -->
+                        </div> <!-- end s-about__content-btn -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
+
+            <!-- expertise
+            ----------------------------------------------- -->
+            <section id="expertise" class="s-expertise">
+
+                <div class="row s-expertise__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header" style="margin-top: 150px;">
+                            <div class="text-pretitle">Expertise</div>                           
+                            <h2 class="text-display-title">
+                            My key areas of expertise.
+                            </h2>     
+                            
+                            <p class="lead">
+                                I specialize in Web Design and development, Hybrid app development and deployment and UI/UX design and other graphic design
+                            </p>
+                        </div> <!-- end section-header -->
+
+                        <div class="s-expertise__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items show-ctr">
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Web Design & Development</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            Web development and design go hand in hand in creating visually appealing and functional websites.
+                                            The development aspect involves coding and programming, while design focuses on aesthetics 
+                                            and user experience. Combining both elements ensures a seamless and engaging online presence 
+                                            for businesses and individuals.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Hybrid App</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            Hybrid apps combine elements of both native and web applications. 
+                                            They are developed using web technologies like HTML, CSS, and JavaScript 
+                                            but are wrapped in a native app shell. This allows them to be distributed 
+                                            through app stores and have access to device features like camera and GPS. 
+                                            Hybrid apps offer the advantage of faster development time and cross-platform compatibility.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-expertise__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">UI/UX & Graphic Design</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            User Interface (UI) and User Experience (UX) design are crucial elements in creating digital 
+                                            products that users love. UI focuses on the aesthetics and layout of a website or app, 
+                                            while UX delves into how users interact with it. Combining these two disciplines can lead 
+                                            to intuitive, visually appealing designs that provide a seamless experience for users. 
+                                            By understanding the importance of UI/UX design, you can elevate your digital projects 
+                                            to new heights and leave a lasting impression on your audience.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div> <!-- grid-list-items -->
+                        </div> <!-- end s-expertise__content-main -->
+
+                        <div class="s-expertise__content-btn grid-section-split__bottom">
+                            <a href="" class="btn btn--stroke u-fullwidth">View All Services</a>
+                        </div> <!-- end s-about__content-btn -->
+
+                    </div> <!-- end grid-block-->
+                </div> <!-- end s-expertise__content -->
+
+            </section> <!-- end s-expertise -->
+
+            <!-- clients
+            ----------------------------------------------- -->
+            <section id="clients" class="s-clients">          
+
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+                    
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Clients</div>                           
+                            <h2 class="text-display-title">
+                            I have had the privilege of working with various clients around the globe
+                            </h2>       
+                        </div> <!-- end section-header -->
+                    
+                        <div class="grid-section-split__primary">
+                            <!-- <p class="lead">
+                            Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam 
+                            obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                            </p>    -->
+
+                            <p>
+                                Working with clients from different parts of the world provides a unique opportunity for growth and learning.
+                                 Each client brings their own perspectives, challenges, and expertise to the table, enriching the 
+                                 experience for everyone involved. This diversity allows for a broader understanding of global markets, 
+                                 cultural nuances, and business practices. It fosters creativity, adaptability, and collaboration, 
+                                 essential skills in today's interconnected world. The privilege of working with a diverse range 
+                                 of clients not only expands one's professional network but also opens doors to new opportunities 
+                                 and innovative solutions.
+                            </p>
+                        </div> <!-- end grid-section-split__primary -->
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+                    
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle" style="margin-left: 20px;">Projects</div>                           
+                            <h2 class="text-display-title" style="width: 350px; margin-left: 20px;">
+                                Some projects worked on
+                            </h2>  
+                        </div> <!-- end section-header -->
+                         <!-- end grid-section-split__primary -->
+                    </div> <!-- end column -->
                 </div>
 
-                <a href="./auth-signup.html" class="btn">Get Started</a>
-            </div>
-        </section>
+                <div class="row s-clients__content-block width-sixteen-col" style="margin-top: 10px;">
+                    <div class="column xl-12">
+                    
+                        <div class="clients-list">                            
+                            <div class="clients-list__item">
+                                <a href="http://assetalpha.atwebpages.com/">
+                                    <img src="images/logo/alpha.png" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="http://bayelsastatepoly.org/">
+                                    <img src="images/logo/byspoly.jpeg" width="150px" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="http://octasub.atwebpages.com/">
+                                    <img src="images/logo/octagon.png" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="http://wisper.ng/">
+                                    <img src="images/logo/wisper logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/proline.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/vision.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/volume.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/hitech.svg" alt="">
+                                </a>
+                            </div><div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/terra.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/chain.svg" alt="">
+                                </a>
+                            </div>
+                        </div> <!-- end clients-list -->
 
-        <!--Chat with us-->
-        <div class="container chat">
-            <div class="chat-box">
-                <h4>Still have Questions?</h4>
-                <p>Contact us and ask us what you want to know</p>
-                <a href="">
-                    <button class="btn">Contact Us</button>
-                </a>
-            </div>
-        </div>
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+                                
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 testimonials">
+                    
+                        <div class="swiper-container testimonials__slider home-slider">
 
-        <footer>
-            <section class="top_section d-none">
-              <div class="company-logo ">
-                <img src="./Assets/Img/truist-logo.svg" alt="">
-              </div>
-            </section>
-    
-            <section class="middle_section">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-3 col-12">
-                    We Provide Digital Services That Beat The Market,
-                    with Octasub topping up your airtime, 
-                    data subscription and bills payment will be a breeze.
-                  </div>
-                  <div class="col-lg-3 col-12">
-                    <h4>Products</h4>
-                    <ul>
-                      <li>Airtime</li>
-                      <li>Mobile data</li>
-                      <li>Educational Payment</li>
-                      <li>Utility Bills</li>
-                      <li>Airtime to cash</li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-3 col-12">
-                    <h4>Contact Us</h4>
-                    <ul>
-                      <li>support@octasub.com>
-                      <li style="font-family: 'rubik';">080392555222, 081316351113</li>
-                      <li>Instagram</li>
-                      <li>Telegram</li>
-                    </ul>
-                  </div>
+                            <!-- <div class="swiper-wrapper">
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
+                                    Laudantium quia consequatur molestias.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>John Rockefeller</strong>
+                                            <span>Standard Oil Co.</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
+                                    Voluptas tempore rem. Laudantium quia consequatur molestias.
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Andrew Carnegie</strong>
+                                            <span>Carnegie Steel Co.</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni.  
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
+                                    Nisi dolores quaerat fuga rem nihil nostrum. Laudantium quia consequatur molestias.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Henry Ford</strong>
+                                            <span>Ford Motor Co.</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
+                                    Laudantium quia consequatur molestias.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>John Morgan</strong>
+                                            <span>JP Morgan & Co.</span>
+                                        </cite>
+                                    </div>
+                                </div> 
+                            </div>  -->
+                            <!-- end swiper-wrapper --> 
+
+                            <div class="swiper-pagination"></div>
+
+                        </div> <!--end testimonials__slider -->                    
+                    
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+
+
+            </section> <!-- end s-clients -->            
+
+        </section> <!-- s-content-->
+
+        <!-- # cta
+        ================================================== -->
+        <section id="cta" class="s-cta">
+
+            <div class="row row-x-center text-center">
+                <div class="column xl-8 lg-12">
+
+                    <div class="s-cta__content">
+                        <h2 class="text-display-title">
+                        Get started with a consultation today.
+                        </h2>
+                        <a href="https://wa.me/message/LV5OMAEJUVQAL1" class="btn btn--primary">Let's Work Together</a>
+                    </div>
+
                 </div>
-              </div>
-            </section>
-    
-            <section class="bottom_section">
-              © 2024, Octasub. All Rights Reserved.
-            </section>
-        </footer>
-    </div>
-  </body>
-  <script src="./Asset/script/index.js"></script>
-  <script defer src="/_vercel/insights/script.js"></script>
-  <!-- jQuery library -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+            </div>
 
-  <!-- Popper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        </section> <!-- end s-cta -->
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- # journal
+        ================================================== -->
+        <section id="journal" class="s-journal">
+
+            <div class="row s-journal__content width-sixteen-col">
+                <div class="column xl-12 grid-block">
+
+                    <div class="grid-full section-header text-center">
+                        <div class="text-pretitle">Recent Articles</div>                           
+                        <h2 class="text-display-title">
+                        Latest articles from my blog.
+                        </h2>  
+                    </div> <!-- end section-header --> 
+
+                    <div class="grid-full s-journal__content-main grid-list-items">
+
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="https://www.dreamhost.com/r.cgi?287326">Sponsored</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="https://www.dreamhost.com/r.cgi?287326">Need Web Hosting for Your Websites?</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Need hosting for your website? We would highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                                Enjoy 100% in-house support, guaranteed performance and uptime, 1-click installs, and a super-intuitive control 
+                                panel to make managing your websites and projects easy. <a href="https://www.dreamhost.com/r.cgi?287326">Sign up</a> now to get started.
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Productivity</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">5 Marketing Productivity Apps for Your Team</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
+                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">SEO</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">7 SEO Factors to Consider for Better Website Ranking</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                </p>
+                            </div>
+                        </div> <!-- end blog card -->
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Productivity</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">5 Effective Web Design Principles</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ullam et laborum aperiam. 
+                                Dignissimos quae voluptatibus ullam esse sapiente fugiat, rerum labore cupiditate obcaecati 
+                                dolore necessitatibus id magni rem officia dolor nam sit laudantium. Quo eaque eveniet quibusdam unde. 
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+
+                    </div> <!-- end grid-list-items -->
+
+                </div> <!-- end grid-block-->
+            </div> <!-- end s-journal__content -->
+
+        </section> <!-- end s-journal -->
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer class="s-footer">
+            <div class="row s-footer__content">
+                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
+                    <h3>About Michael</h3>
+                    <p>
+                        I specialize in Web Design and development, Hybrid app development and deployment 
+                        and UI/UX design and other graphic design
+                    </p>               
+                </div>                
+                <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Journal</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
+                    </ul>
+                </div>
+                <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
+                    <h3>Newsletter</h3>
+
+                    <p>
+                        Newsletter not avaliable
+                    </p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="mc-form">
+                            <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                            <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary btn--small u-fullwidth">
+                            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                            <div class="mc-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                                <span class="u-screen-reader-text">Dribbble</span>
+                            </a>
+                        </li>
+                    </ul> <!-- end s-footer__social -->
+                </div>
+                <div class="column xl-6 lg-12">
+                    <!-- <p class="ss-copyright">
+                        <span>© Copyright Monica 2022</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </p> -->
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+            </div>
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 </html>
